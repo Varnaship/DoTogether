@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programing\\Softuni\\Angular\\DoTogether\\Server\\DoTogetherServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81BABA0D-45C7-4F00-A63B-1ED8BA3EF0FE}|DoTogetherDatabase\\DoTogetherDatabase.csproj|c:\\programing\\softuni\\angular\\dotogether\\server\\dotogetherserver\\dotogetherdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BABA0D-45C7-4F00-A63B-1ED8BA3EF0FE}|DoTogetherDatabase\\DoTogetherDatabase.csproj|solutionrelative:dotogetherdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 249,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programing\\Softuni\\Angular\\DoTogether\\Server\\DoTogetherServer\\DoTogetherDatabase\\Program.cs",
+              "RelativeDocumentMoniker": "DoTogetherDatabase\\Program.cs",
+              "ToolTip": "C:\\Programing\\Softuni\\Angular\\DoTogether\\Server\\DoTogetherServer\\DoTogetherDatabase\\Program.cs",
+              "RelativeToolTip": "DoTogetherDatabase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T15:53:14.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 143,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
