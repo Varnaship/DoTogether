@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoTogetherDatabase", "DoTogetherDatabase\DoTogetherDatabase.csproj", "{81BABA0D-45C7-4F00-A63B-1ED8BA3EF0FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoTogetherDatabase.Api", "DoTogetherDatabase\DoTogetherDatabase.Api.csproj", "{81BABA0D-45C7-4F00-A63B-1ED8BA3EF0FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoTogetherDatabase.Models", "DoTogetherDatabase.Models\DoTogetherDatabase.Models.csproj", "{72A250C8-33E2-486A-8559-50072DD8AE08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoTogetherDatabase.Data", "DoTogetherDatabase.Data\DoTogetherDatabase.Data.csproj", "{EC7A2528-98B1-4612-B4DF-244CE9981BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoTogetherDatabase.Services", "DoTogetherDatabase.Services\DoTogetherDatabase.Services.csproj", "{34FE48FA-34FB-48EB-8669-E577203EFC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoTogetherDatabase.Mapping", "DoTogetherDatabase.Mapping\DoTogetherDatabase.Mapping.csproj", "{25B38B1D-0DDE-45A4-A0B0-CF1D5CCDCA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoTogetherDatabase.Common", "DoTogetherDatabase.Common\DoTogetherDatabase.Common.csproj", "{8EADEBB7-C917-4D86-8CD2-BB4D38A12177}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{81BABA0D-45C7-4F00-A63B-1ED8BA3EF0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81BABA0D-45C7-4F00-A63B-1ED8BA3EF0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81BABA0D-45C7-4F00-A63B-1ED8BA3EF0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A250C8-33E2-486A-8559-50072DD8AE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A250C8-33E2-486A-8559-50072DD8AE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A250C8-33E2-486A-8559-50072DD8AE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A250C8-33E2-486A-8559-50072DD8AE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7A2528-98B1-4612-B4DF-244CE9981BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7A2528-98B1-4612-B4DF-244CE9981BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7A2528-98B1-4612-B4DF-244CE9981BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7A2528-98B1-4612-B4DF-244CE9981BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FE48FA-34FB-48EB-8669-E577203EFC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FE48FA-34FB-48EB-8669-E577203EFC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FE48FA-34FB-48EB-8669-E577203EFC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FE48FA-34FB-48EB-8669-E577203EFC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B38B1D-0DDE-45A4-A0B0-CF1D5CCDCA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B38B1D-0DDE-45A4-A0B0-CF1D5CCDCA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B38B1D-0DDE-45A4-A0B0-CF1D5CCDCA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B38B1D-0DDE-45A4-A0B0-CF1D5CCDCA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EADEBB7-C917-4D86-8CD2-BB4D38A12177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EADEBB7-C917-4D86-8CD2-BB4D38A12177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EADEBB7-C917-4D86-8CD2-BB4D38A12177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EADEBB7-C917-4D86-8CD2-BB4D38A12177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

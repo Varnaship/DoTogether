@@ -1710,6 +1710,22 @@
         "runtime": {
           "bin/placeholder/DoTogetherDatabase.Models.dll": {}
         }
+      },
+      "DoTogetherDatabase.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "15.0.1",
+          "DoTogetherDatabase.Common": "1.0.0",
+          "DoTogetherDatabase.Data": "1.0.0",
+          "DoTogetherDatabase.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DoTogetherDatabase.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DoTogetherDatabase.Services.dll": {}
+        }
       }
     }
   },
@@ -4940,6 +4956,11 @@
       "type": "project",
       "path": "../DoTogetherDatabase.Models/DoTogetherDatabase.Models.csproj",
       "msbuildProject": "../DoTogetherDatabase.Models/DoTogetherDatabase.Models.csproj"
+    },
+    "DoTogetherDatabase.Services/1.0.0": {
+      "type": "project",
+      "path": "../DoTogetherDatabase.Services/DoTogetherDatabase.Services.csproj",
+      "msbuildProject": "../DoTogetherDatabase.Services/DoTogetherDatabase.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4947,6 +4968,7 @@
       "AutoMapper >= 15.0.1",
       "DoTogetherDatabase.Data >= 1.0.0",
       "DoTogetherDatabase.Mapping >= 1.0.0",
+      "DoTogetherDatabase.Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.8",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -4988,6 +5010,9 @@
             },
             "C:\\Programing\\Softuni\\Angular\\DoTogether\\Server\\DoTogetherServer\\DoTogetherDatabase.Mapping\\DoTogetherDatabase.Mapping.csproj": {
               "projectPath": "C:\\Programing\\Softuni\\Angular\\DoTogether\\Server\\DoTogetherServer\\DoTogetherDatabase.Mapping\\DoTogetherDatabase.Mapping.csproj"
+            },
+            "C:\\Programing\\Softuni\\Angular\\DoTogether\\Server\\DoTogetherServer\\DoTogetherDatabase.Services\\DoTogetherDatabase.Services.csproj": {
+              "projectPath": "C:\\Programing\\Softuni\\Angular\\DoTogether\\Server\\DoTogetherServer\\DoTogetherDatabase.Services\\DoTogetherDatabase.Services.csproj"
             }
           }
         }

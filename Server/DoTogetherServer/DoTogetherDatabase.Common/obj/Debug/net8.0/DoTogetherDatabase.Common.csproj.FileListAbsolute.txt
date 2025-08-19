@@ -1,0 +1,12 @@
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\bin\Debug\net8.0\DoTogetherDatabase.Common.deps.json
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\bin\Debug\net8.0\DoTogetherDatabase.Common.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\bin\Debug\net8.0\DoTogetherDatabase.Common.pdb
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\DoTogetherDatabase.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\DoTogetherDatabase.Common.AssemblyInfoInputs.cache
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\DoTogetherDatabase.Common.AssemblyInfo.cs
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\DoTogetherDatabase.Common.csproj.CoreCompileInputs.cache
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\DoTogetherDatabase.Common.sourcelink.json
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\DoTogetherDatabase.Common.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\refint\DoTogetherDatabase.Common.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\DoTogetherDatabase.Common.pdb
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Common\obj\Debug\net8.0\ref\DoTogetherDatabase.Common.dll

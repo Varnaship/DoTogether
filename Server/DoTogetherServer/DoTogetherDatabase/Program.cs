@@ -2,6 +2,7 @@ using AutoMapper;
 using DoTogetherDatabase.Data;
 using DoTogetherDatabase.Mapping;
 using Microsoft.EntityFrameworkCore;
+using DoTogetherDatabase.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,9 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddDbContext<DoTogetherDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Add application services
+builder.Services.AddScoped<ITaskService, TaskService>();
 
 var app = builder.Build();
 

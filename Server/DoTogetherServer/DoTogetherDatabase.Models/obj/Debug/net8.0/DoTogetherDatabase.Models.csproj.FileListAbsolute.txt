@@ -1,0 +1,16 @@
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\bin\Debug\net8.0\DoTogetherDatabase.Models.deps.json
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\bin\Debug\net8.0\DoTogetherDatabase.Models.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\bin\Debug\net8.0\DoTogetherDatabase.Models.pdb
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\bin\Debug\net8.0\DoTogetherDatabase.Common.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\bin\Debug\net8.0\DoTogetherDatabase.Common.pdb
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogetherDatabase.Models.csproj.AssemblyReference.cache
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogetherDatabase.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogetherDatabase.Models.AssemblyInfoInputs.cache
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogetherDatabase.Models.AssemblyInfo.cs
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogetherDatabase.Models.csproj.CoreCompileInputs.cache
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogetherDatabase.Models.sourcelink.json
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogeth.A3043EA6.Up2Date
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogetherDatabase.Models.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\refint\DoTogetherDatabase.Models.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\DoTogetherDatabase.Models.pdb
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Models\obj\Debug\net8.0\ref\DoTogetherDatabase.Models.dll

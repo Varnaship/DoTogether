@@ -17,12 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DoTogetherDatabase.Data\DoTogetherDatabase.Data.csproj" />
     <ProjectReference Include="..\DoTogetherDatabase.Mapping\DoTogetherDatabase.Mapping.csproj" />
+    <ProjectReference Include="..\DoTogetherDatabase.Services\DoTogetherDatabase.Services.csproj" />
   </ItemGroup>
 
 </Project>

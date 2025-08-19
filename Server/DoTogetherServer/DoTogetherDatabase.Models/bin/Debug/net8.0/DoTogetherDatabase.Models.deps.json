@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DoTogetherDatabase.Models/1.0.0": {
+        "dependencies": {
+          "DoTogetherDatabase.Common": "1.0.0"
+        },
+        "runtime": {
+          "DoTogetherDatabase.Models.dll": {}
+        }
+      },
+      "DoTogetherDatabase.Common/1.0.0": {
+        "runtime": {
+          "DoTogetherDatabase.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoTogetherDatabase.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DoTogetherDatabase.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
