@@ -52,5 +52,21 @@ namespace DoTogetherDatabase.Controllers
             if (!success) return NotFound();
             return NoContent();
         }
+
+        [HttpPost("{id}/like")]
+        public async Task<IActionResult> Like(Guid id)
+        {
+            var success = await _service.IncrementLikesAsync(id);
+            if (!success) return NotFound();
+            return NoContent();
+        }
+
+        [HttpPost("{id}/dislike")]
+        public async Task<IActionResult> Dislike(Guid id)
+        {
+            var success = await _service.IncrementDislikesAsync(id);
+            if (!success) return NotFound();
+            return NoContent();
+        }
     }
 }

@@ -9,5 +9,7 @@ namespace DoTogetherDatabase.Services
         Task<TaskDto> CreateAsync(TaskDto dto);
         Task<bool> UpdateAsync(Guid id, TaskDto dto);
         Task<bool> DeleteAsync(Guid id);
+        Task<bool> IncrementLikesAsync(Guid id);
+        Task<bool> IncrementDislikesAsync(Guid id);
     }
 }

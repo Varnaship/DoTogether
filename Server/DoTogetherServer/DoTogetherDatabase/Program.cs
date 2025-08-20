@@ -1,8 +1,9 @@
 using AutoMapper;
 using DoTogetherDatabase.Data;
 using DoTogetherDatabase.Mapping;
-using Microsoft.EntityFrameworkCore;
 using DoTogetherDatabase.Services;
+using DoTogetherDatabase.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,7 @@ builder.Services.AddDbContext<DoTogetherDbContext>(options =>
 
 // Add application services
 builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.AddScoped<ICommentService, CommentService>();
 
 var app = builder.Build();
 

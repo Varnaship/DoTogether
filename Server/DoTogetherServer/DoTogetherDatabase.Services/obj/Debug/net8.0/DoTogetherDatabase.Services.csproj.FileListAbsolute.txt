@@ -10,3 +10,11 @@ C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatab
 C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\obj\Debug\net8.0\refint\DoTogetherDatabase.Services.dll
 C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\obj\Debug\net8.0\DoTogetherDatabase.Services.pdb
 C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\obj\Debug\net8.0\ref\DoTogetherDatabase.Services.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\bin\Debug\net8.0\DoTogetherDatabase.Common.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\bin\Debug\net8.0\DoTogetherDatabase.Data.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\bin\Debug\net8.0\DoTogetherDatabase.Models.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\bin\Debug\net8.0\DoTogetherDatabase.Common.pdb
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\bin\Debug\net8.0\DoTogetherDatabase.Data.pdb
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\bin\Debug\net8.0\DoTogetherDatabase.Models.pdb
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\obj\Debug\net8.0\DoTogetherDatabase.Services.csproj.AssemblyReference.cache
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase.Services\obj\Debug\net8.0\DoTogeth.997FF6CC.Up2Date

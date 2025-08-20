@@ -31,7 +31,7 @@ namespace DoTogetherDatabase.Services
 
         public async Task<TaskDto> CreateAsync(TaskDto dto)
         {
-            var entity = _mapper.Map<Task>(dto);
+            var entity = _mapper.Map<Models.Task>(dto);
             entity.Id = Guid.NewGuid();
             entity.CreatedAt = DateTime.UtcNow;
             _context.Tasks.Add(entity);
@@ -53,6 +53,24 @@ namespace DoTogetherDatabase.Services
             var entity = await _context.Tasks.FindAsync(id);
             if (entity == null) return false;
             _context.Tasks.Remove(entity);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> IncrementLikesAsync(Guid id)
+        {
+            var entity = await _context.Tasks.FindAsync(id);
+            if (entity == null) return false;
+            entity.Likes++;
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> IncrementDislikesAsync(Guid id)
+        {
+            var entity = await _context.Tasks.FindAsync(id);
+            if (entity == null) return false;
+            entity.Dislikes++;
             await _context.SaveChangesAsync();
             return true;
         }

@@ -179,3 +179,5 @@ C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatab
 C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase\bin\Debug\net8.0\DoTogetherDatabase.Services.dll
+C:\Programing\Softuni\Angular\DoTogether\Server\DoTogetherServer\DoTogetherDatabase\bin\Debug\net8.0\DoTogetherDatabase.Services.pdb

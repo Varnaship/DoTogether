@@ -9,5 +9,7 @@
         public DateTime CreatedAt { get; set; }
         public DateTime? DueDate { get; set; }
         public Guid? AssignedUserId { get; set; }
+        public int Likes { get; set; }
+        public int Dislikes { get; set; }
     }
 }
