@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BlJ5agqEv10=",
+  "dgSpecHash": "o8jd3KX7sPA=",
   "success": true,
   "projectFilePath": "C:\\Programing\\Softuni\\Angular\\DoTogether\\Server\\DoTogetherServer\\DoTogetherDatabase.Services\\DoTogetherDatabase.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC Clinic\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\PC Clinic\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\PC Clinic\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\PC Clinic\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\PC Clinic\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\PC Clinic\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
     "C:\\Users\\PC Clinic\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",

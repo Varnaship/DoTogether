@@ -1,11 +1,14 @@
 ﻿using DoTogetherDatabase.Common.DTOs;
 using DoTogetherDatabase.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DoTogetherDatabase.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
+
     public class TasksController : ControllerBase
     {
         private readonly ITaskService _service;

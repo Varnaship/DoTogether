@@ -1,11 +1,14 @@
 ﻿using DoTogetherDatabase.Common.DTOs;
 using DoTogetherDatabase.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DoTogetherDatabase.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
+
     public class CommentsController : ControllerBase
     {
         private readonly ICommentService _service;

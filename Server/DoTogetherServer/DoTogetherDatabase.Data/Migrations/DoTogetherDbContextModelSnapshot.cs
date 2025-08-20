@@ -241,6 +241,9 @@ namespace DoTogetherDatabase.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("IsPublic")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -254,6 +257,34 @@ namespace DoTogetherDatabase.Data.Migrations
                     b.HasIndex("WorkspaceId");
 
                     b.ToTable("Projects");
+                });
+
+            modelBuilder.Entity("DoTogetherDatabase.Models.ProjectMember", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("InviteCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("ProjectId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProjectId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ProjectMembers");
                 });
 
             modelBuilder.Entity("DoTogetherDatabase.Models.Task", b =>
@@ -479,6 +510,25 @@ namespace DoTogetherDatabase.Data.Migrations
                     b.Navigation("Workspace");
                 });
 
+            modelBuilder.Entity("DoTogetherDatabase.Models.ProjectMember", b =>
+                {
+                    b.HasOne("DoTogetherDatabase.Models.Project", "Project")
+                        .WithMany("Members")
+                        .HasForeignKey("ProjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DoTogetherDatabase.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Project");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("DoTogetherDatabase.Models.Task", b =>
                 {
                     b.HasOne("DoTogetherDatabase.Models.User", "AssignedUser")
@@ -528,6 +578,8 @@ namespace DoTogetherDatabase.Data.Migrations
             modelBuilder.Entity("DoTogetherDatabase.Models.Project", b =>
                 {
                     b.Navigation("Lists");
+
+                    b.Navigation("Members");
                 });
 
             modelBuilder.Entity("DoTogetherDatabase.Models.Task", b =>

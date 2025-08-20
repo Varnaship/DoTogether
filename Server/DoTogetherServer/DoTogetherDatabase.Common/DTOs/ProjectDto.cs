@@ -5,5 +5,6 @@
         public Guid Id { get; set; }
         public string Name { get; set; } = null!;
         public Guid WorkspaceId { get; set; }
+        public bool IsPublic { get; set; }
     }
 }

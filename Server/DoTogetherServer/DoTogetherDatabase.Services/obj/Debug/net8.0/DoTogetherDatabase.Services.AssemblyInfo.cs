@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoTogetherDatabase.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4259e76ae9003f041b609f9d562de7d111da9225")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59e1e9fea390a9f2ee8b790d192c2ffa0e6eb944")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoTogetherDatabase.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoTogetherDatabase.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
