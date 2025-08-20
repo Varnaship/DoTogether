@@ -1,0 +1,29 @@
+<div *ngIf="error" class="error">{{ error }}</div>
+<div *ngIf="task">
+	<h2>{{ task.title }}</h2>
+	<p>{{ task.description }}</p>
+	<p>Created: {{ task.createdAt | date }}</p>
+	<p *ngIf="task.dueDate">Due: {{ task.dueDate | date }}</p>
+</div>
+<div>
+  <button (click)="likeTask()">👍 Like</button>
+  <span>{{ task?.likes || 0 }}</span>
+  <button (click)="dislikeTask()">👎 Dislike</button>
+  <span>{{ task?.dislikes || 0 }}</span>
+</div>
+
+<div class="comments-section">
+  <h3>Comments</h3>
+  <div *ngIf="error" class="error">{{ error }}</div>
+  <ul>
+    <li *ngFor="let comment of comments">
+      <span>{{ comment.content }}</span>
+      <button (click)="deleteComment(comment.id)">Delete</button>
+      <span class="date">{{ comment.createdAt | date:'short' }}</span>
+    </li>
+  </ul>
+  <form (ngSubmit)="addComment()">
+    <input [(ngModel)]="newComment" name="newComment" required placeholder="Add a comment..." />
+    <button type="submit">Add</button>
+  </form>
+</div>

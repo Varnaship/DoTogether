@@ -1,0 +1,19 @@
+<div *ngIf="error" class="error">{{ error }}</div>
+<div *ngIf="project">
+  <h2>{{ project.name }}</h2>
+  <p>{{ project.description }}</p>
+  <p>Created: {{ project.createdAt | date:'short' }}</p>
+  <span *ngIf="!project.isPublic" class="private-label">Private</span>
+  <a [routerLink]="['/projects', project.id, 'edit']" class="pill">Edit</a>
+  <a [routerLink]="['/projects', project.id, 'members']" class="pill">Members</a>
+  <a [routerLink]="['/tasks/create']" [queryParams]="{ projectId: project.id }" class="pill">Create Task for this Project</a>
+
+  <hr>
+  <h3>Create Task</h3>
+  <div *ngIf="taskError" class="error">{{ taskError }}</div>
+  <form (ngSubmit)="createTask()">
+    <label>Title: <input [(ngModel)]="taskModel.title" name="title" required></label><br>
+    <label>Description: <textarea [(ngModel)]="taskModel.description" name="description"></textarea></label><br>
+    <button type="submit">Create Task</button>
+  </form>
+</div>

@@ -1,0 +1,9 @@
+<h2>Projects</h2>
+<div *ngIf="error" class="error">{{ error }}</div>
+<ul>
+  <li *ngFor="let project of projects">
+    <a [routerLink]="['/projects', project.id]">{{ project.name }}</a>
+    <span *ngIf="!project.isPublic" class="private-label">Private</span>
+  </li>
+</ul>
+<a routerLink="/projects/create" class="pill">Create New Project</a>

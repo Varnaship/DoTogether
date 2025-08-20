@@ -1,0 +1,11 @@
+<h2>Create Project</h2>
+<div *ngIf="error" class="error">{{ error }}</div>
+<form (ngSubmit)="createProject()">
+  <label>Name: <input [(ngModel)]="model.name" name="name" required></label>
+  <label>Description: <textarea [(ngModel)]="model.description" name="description"></textarea></label>
+  <label>
+    <input type="checkbox" [(ngModel)]="model.isPublic" name="isPublic">
+    Public
+  </label>
+  <button type="submit" class="pill">Create</button>
+</form>

@@ -1,0 +1,10 @@
+<div *ngIf="error" class="error">{{ error }}</div>
+<h3>Project Members</h3>
+<ul>
+	<li *ngFor="let member of members">
+		{{ member.username }} ({{ member.role }})
+		<button *ngIf="isOwner && member.role !== 'Owner'" (click)="kickMember(member.id)">Kick</button>
+		<button *ngIf="member.userId === currentUserId && member.role !== 'Owner'" (click)="leaveProject(member.id)">Leave</button>
+	</li>
+ </ul>
+<p>project-members works!</p>
